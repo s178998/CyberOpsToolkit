@@ -4,3 +4,5 @@
 # Optional (commented) examples for future enhancements
 # pandas>=2.1.0
 # requests>=2.32.0  # for HIBP API integration
+
+bcrypt
