@@ -1,0 +1,38 @@
+[
+  {
+    "id": null,
+    "username": "Prof_Davis_1006",
+    "action": "register",
+    "success": true,
+    "reason": [
+      "Password valid"
+    ],
+    "timestamp": "2026-01-16T10:18:30.707083+00:00"
+  },
+  {
+    "id": "Prof_Davis_1006_f346117706943fcd25ec69bf",
+    "username": "Prof_Davis_1006",
+    "action": "register",
+    "success": true,
+    "reason": "USER_CREATED",
+    "timestamp": "2026-01-16T10:18:31.665467+00:00"
+  },
+  {
+    "id": null,
+    "username": "TA_Miller_1007",
+    "action": "register",
+    "success": true,
+    "reason": [
+      "Password valid"
+    ],
+    "timestamp": "2026-01-16T10:18:31.666013+00:00"
+  },
+  {
+    "id": "TA_Miller_1007_9935ad40c38f3ebba91e979f",
+    "username": "TA_Miller_1007",
+    "action": "register",
+    "success": true,
+    "reason": "USER_CREATED",
+    "timestamp": "2026-01-16T10:18:32.605101+00:00"
+  }
+]

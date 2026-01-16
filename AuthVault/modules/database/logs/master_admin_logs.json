@@ -1,0 +1,82 @@
+[
+  {
+    "master_admin_id": null,
+    "master_admin_username": "Dr_Smith_1001",
+    "master_admin_action": "register",
+    "master_admin_success": true,
+    "master_admin_reason": [
+      "Password valid"
+    ],
+    "timestamp": "2026-01-16T10:18:25.501569+00:00"
+  },
+  {
+    "master_admin_id": "Dr_Smith_1001_9ec3e2e39e9f9cbd0f5cfe80",
+    "master_admin_username": "Dr_Smith_1001",
+    "master_admin_action": "register",
+    "master_admin_success": true,
+    "master_admin_reason": "USER_CREATED",
+    "timestamp": "2026-01-16T10:18:26.618179+00:00"
+  },
+  {
+    "master_admin_id": null,
+    "master_admin_username": "Dr_Johnson_1002",
+    "master_admin_action": "register",
+    "master_admin_success": true,
+    "master_admin_reason": [
+      "Password valid"
+    ],
+    "timestamp": "2026-01-16T10:18:26.618728+00:00"
+  },
+  {
+    "master_admin_id": "Dr_Johnson_1002_d139a0adbac672c7a7b18da9",
+    "master_admin_username": "Dr_Johnson_1002",
+    "master_admin_action": "register",
+    "master_admin_success": true,
+    "master_admin_reason": "USER_CREATED",
+    "timestamp": "2026-01-16T10:18:27.647620+00:00"
+  },
+  {
+    "master_admin_id": null,
+    "master_admin_username": "Dr_Williams_1003",
+    "master_admin_action": "register",
+    "master_admin_success": true,
+    "master_admin_reason": [
+      "Password valid"
+    ],
+    "timestamp": "2026-01-16T10:18:27.648306+00:00"
+  },
+  {
+    "master_admin_id": "Dr_Williams_1003_3180291f1125854348ad3bb3",
+    "master_admin_username": "Dr_Williams_1003",
+    "master_admin_action": "register",
+    "master_admin_success": true,
+    "master_admin_reason": "USER_CREATED",
+    "timestamp": "2026-01-16T10:18:28.656450+00:00"
+  },
+  {
+    "master_admin_id": "Dr_Smith_1001_9ec3e2e39e9f9cbd0f5cfe80",
+    "master_admin_username": "Dr_Smith_1001",
+    "master_admin_action": "login",
+    "master_admin_success": true,
+    "master_admin_reason": "CREDENTIALS_VALID",
+    "timestamp": "2026-01-16T10:18:59.596921+00:00"
+  },
+  {
+    "master_admin_id": "Dr_Smith_1001_9ec3e2e39e9f9cbd0f5cfe80",
+    "master_admin_username": "Dr_Smith_1001",
+    "master_admin_action": "change_password",
+    "master_admin_success": true,
+    "master_admin_reason": [
+      "Password valid"
+    ],
+    "timestamp": "2026-01-16T10:19:11.709984+00:00"
+  },
+  {
+    "master_admin_id": "Dr_Smith_1001_9ec3e2e39e9f9cbd0f5cfe80",
+    "master_admin_username": "Dr_Smith_1001",
+    "master_admin_action": "login",
+    "master_admin_success": true,
+    "master_admin_reason": "CREDENTIALS_VALID",
+    "timestamp": "2026-01-16T10:21:00.019488+00:00"
+  }
+]

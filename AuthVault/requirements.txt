@@ -1,0 +1,6 @@
+# Python standard library modules only — no external packages required for now
+# Add additional packages if you expand functionality (e.g., pandas for CSV handling)
+
+# Optional (commented) examples for future enhancements
+# pandas>=2.1.0
+# requests>=2.32.0  # for HIBP API integration
