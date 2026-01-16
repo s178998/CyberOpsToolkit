@@ -12,7 +12,8 @@ def main():
 
     # Generate Password
     parser_generate = subparsers.add_parser("generate", help="Generate a new password")
-    parser_generate.add_argument("--length", type=int, default=12, help="Length of password")
+    parser_generate.add_argument("-n", "--number", type=int, default=1, help="How many passwords")
+    parser_generate.add_argument("-l", "--length", type=int, default=12, help="Length of password")
 
     # Show Stats
     subparsers.add_parser("stats", help="Show password log stats")
@@ -35,10 +36,11 @@ def main():
         print(f"Valid: {valid}\nMessages: {messages}")
 
     elif args.command == "generate":
-        password = pp.generate_password(args.length)
-        print(f"Generated password: {password}")
-        valid, msg = pp.check_password(password)
-        pp.logs.log_check(password, valid, msg)
+        for _ in range(args.number):
+            password = pp.generate_password(args.length)
+            print(f"Generated password: {password}")
+            valid, msg = pp.check_password(password)
+            pp.logs.log_check(password, valid, msg)
 
     elif args.command == "stats":
         analyzer.stats()

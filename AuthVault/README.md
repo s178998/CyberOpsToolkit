@@ -72,10 +72,10 @@ logs	View logs (all, valid, invalid)
 Examples:
 ``` bash
 python3 -m password_policy_tool.main check 'MyPass123!'
-python3 -m password_policy_tool.main generate --length 16
+python3 -m password_policy_tool.main generate -n 10 -l 16 # or --number 10 --length 16
 python3 -m password_policy_tool.main stats
 python3 -m password_policy_tool.main export
-python3 -m password_policy_tool.main logs --mode valid
+python3 -m password_policy_tool.main logs --mode valid # or --mode invalid or --mode all
 ```
 ## 🧩 Logging & Compliance
 
