@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 2️⃣ Run Authentication System
 ``` bash
-python3 main.py
+python3 authvault.py
 ```
 
 Menu options:
