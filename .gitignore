@@ -258,3 +258,36 @@ docs/resume.pdf
 
 /database/
 database/logs
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+.env
+
+# Logs and reports
+password_policy/data/raw_logs/
+password_policy/reports/
+*.log
+*.csv
+
+# Database
+database/
+
+# OS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Secrets / keys
+*.key
+*.pem
+
+# Placeholder files
+docs/resume.pdf
